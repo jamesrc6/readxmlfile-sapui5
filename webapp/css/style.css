@@ -1,0 +1,24 @@
+/* Enter your custom styles here */
+
+#__page0-intHeader {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#fff, rgba(240, 240, 240, 0.9));
+    border-bottom: 1px solid #d4d4d4;
+    z-index: 1010;
+    transition: top .4s;
+  }
+  .InputStyle .sapMInputBaseInner {
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .InputStyle{
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+  .TableStyle .sapMListTblCell{
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+  .PageStyle{
+    background-image: url("http://www.dailypicsupdate.com/wp-content/uploads/2012/12/colorful-light-in-glass-background-Wallpaper-hd-free.jpg");
+  }

@@ -1,0 +1,57 @@
+<mvc:View
+    controllerName="axelera.readxmlfile.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}" class="PageStyle">
+                    <content>
+                        <!-- <Text id="testtt" text="{/Sales/OrderId}"></Text> -->
+                        <!-- <Button id="idd" text="Click" press=".onPress"></Button> -->
+                        <Table id="idProductsTable" items="{/Rowset/0/Row}" 
+                                mode="SingleSelectMaster" 
+                                selectionChange="onSelectionChange"
+                                class="TableStyle">
+                            <headerToolbar>
+                                <Toolbar id="_IDGenToolbar1">
+                                    <ToolbarSpacer id="_IDGenToolbarSpacer1" />
+                                    <Button id="button1" text="Insert Item" type="Emphasized" press="onInsert" />
+                                    <Button id="button2" text="Edit Item" type="Emphasized" press="onEdit" />
+                                    <Button id="button3" text="Save Item" type="Emphasized" press="onSave" />
+                                    <Button id="button4" text="Delete Item" type="Reject" press="onDelete" />
+                                </Toolbar>
+                            </headerToolbar>
+                            <columns>
+                                <Column id="column1">
+                                    <Label id="label1" text="{i18n>id}"/>
+                                </Column>
+                                <Column id="column2">
+                                    <Label id="label2" text="{i18n>product}"/>
+                                </Column>
+                                <Column id="column3">
+                                    <Label id="label3" text="{i18n>category}"/>
+                                </Column>
+                                <Column id="column4">
+                                    <Label id="label4" text="{i18n>weightMeasure}"/>
+                                </Column>
+                            </columns>
+                            <items>
+                                <ColumnListItem id="columnListItem1">
+                                    <cells>
+                                        <Input id="_IDGenInput1" value="{ProductId}" editable="false" class="InputStyle" />
+                                        <Input id="_IDGenInput2" value="{Name}" editable="false" class="InputStyle" />
+                                        <Input id="_IDGenInput3" value="{Category}" editable="false" class="InputStyle" />
+                                        <Input id="_IDGenInput4" value="{WeightMeasure}" editable="false" class="InputStyle" />
+                                    </cells>
+                                </ColumnListItem>
+                            </items>
+                        </Table>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

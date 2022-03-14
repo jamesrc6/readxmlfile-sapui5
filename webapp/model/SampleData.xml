@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Rowsets CachedTime="" DateCreated="2016-07-03T04:08:56" EndDate="2016-07-03T04:08:56" StartDate="2016-07-03T03:08:56">
+    <Rowset>
+        <Columns>
+            <Column Description="ProductId" MaxRange="1" MinRange="0" Name="ProductId" SourceColumn="ProductId" />
+            <Column Description="Name" MaxRange="1" MinRange="0" Name="Name" SourceColumn="Name" />
+            <Column Description="Category" MaxRange="1" MinRange="0" Name="Category" SourceColumn="Category" />
+            <Column Description="SupplierName" MaxRange="1" MinRange="0" Name="SupplierName" SourceColumn="SupplierName" />
+            <Column Description="WeightMeasure" MaxRange="1" MinRange="0" Name="WeightMeasure" SourceColumn="WeightMeasure" />
+        </Columns>
+        <Row>
+            <ProductId>1239102</ProductId>
+            <Name>Power Projector</Name>
+            <Category>Projector</Category>
+            <SupplierName>Titanium</SupplierName>
+            <WeightMeasure>1467</WeightMeasure>
+        </Row>
+        <Row>
+            <ProductId>2212-121-828</ProductId>
+            <Name>Gladiator MX</Name>
+            <Category>Graphics Card</Category>
+            <SupplierName>Technocom</SupplierName>
+            <WeightMeasure>321</WeightMeasure>
+        </Row>
+        <Row>
+            <ProductId>K47322.1</ProductId>
+            <Name>Hurricane GX</Name>
+            <Category>Graphics Card</Category>
+            <SupplierName>Red Point Stores</SupplierName>
+            <WeightMeasure>588</WeightMeasure>
+        </Row>
+        <Row>
+            <ProductId>22134T</ProductId>
+            <Name>Webcam</Name>
+            <Category>Accessory</Category>
+            <SupplierName>Technocom</SupplierName>
+            <WeightMeasure>700</WeightMeasure>
+        </Row>
+    </Rowset>
+</Rowsets>
